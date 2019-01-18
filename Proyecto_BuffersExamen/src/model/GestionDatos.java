@@ -271,6 +271,9 @@ public class GestionDatos {
 			}
 
 		}
+		if(numTokens==0) {
+			System.out.println("Error");
+		}
 		System.out.println(numTokens);
 		return fichero;
 		
